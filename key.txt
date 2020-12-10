@@ -1,0 +1,7 @@
+a76a344ed6c9b0bb167f3b7efe6f6aaa
+
+https://api.nomics.com/v1/exchanges/ticker?key=a76a344ed6c9b0bb167f3b7efe6f6aaa
+
+https://api.nomics.com/v1/exchange-rates/history?key=a76a344ed6c9b0bb167f3b7efe6f6aaa&currency=BTC&start=2018-04-14T00%3A00%3A00Z&end=2018-05-14T00%3A00%3A00Z
+
+https://api.nomics.com/v1/currencies/ticker?key=a76a344ed6c9b0bb167f3b7efe6f6aaa&ids=BTC,ETH,XRP,BNB,AAVE&interval=1d,30d,365d
