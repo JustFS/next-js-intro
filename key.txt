@@ -1,5 +1,0 @@
-a76a344ed6c9b0bb167f3b7efe6f6aaa
-
-https://api.nomics.com/v1/currencies/ticker?key=a76a344ed6c9b0bb167f3b7efe6f6aaa&ids=BTC,ETH,XRP,BNB,AAVE&interval=1d,30d,365d
-
-https://api.nomics.com/v1/currencies?key=a76a344ed6c9b0bb167f3b7efe6f6aaa&ids=BTC&attributes=id,name,logo_url,description,reddit_url
