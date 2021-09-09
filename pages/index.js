@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home({ res }) {
   return (
-    <Layout page="Crypto Watch - Accueil">
+    <Layout page="SlikHub - Home">
       <ul className="flex justify-around py-10">
         {res.map((crypto, index) => (
           <li
