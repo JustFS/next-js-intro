@@ -74,7 +74,7 @@ export default function Home({ res }) {
 export async function getStaticProps(context) {
   try {
     const res = await fetch(
-      "https://api.nomics.com/v1/currencies/ticker?key=a76a344ed6c9b0bb167f3b7efe6f6aaa&ids=BTC,ETH,XRP&interval=1d,30d,365d"
+      "https://api.nomics.com/v1/currencies/ticker?key=d8325b66b72352ab5c15106dbdd5dca5ee1697e9&ids=WAX,EOS,ETH&interval=1d,30d,365d"
     ).then((res) => res.json());
 
     return {

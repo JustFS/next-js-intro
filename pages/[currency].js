@@ -29,7 +29,7 @@ export async function getServerSideProps({ query }) {
   // console.log(query.currency);
   try {
     const res = await fetch(
-      `https://api.nomics.com/v1/currencies?key=a76a344ed6c9b0bb167f3b7efe6f6aaa&ids=${query.currency}&attributes=id,name,logo_url,description,reddit_url`
+      `https://api.nomics.com/v1/currencies?key=d8325b66b72352ab5c15106dbdd5dca5ee1697e9&ids=${query.currency}&attributes=id,name,logo_url,description,reddit_url`
     );
     const result = await res.json();
 

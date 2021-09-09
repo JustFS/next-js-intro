@@ -9,25 +9,26 @@ export default function Layout({ children, page }) {
       <Head>
         <title>{page}</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
       </Head>
 
       <header className="container-lg">
-        <h1 className="text-5xl mb-2">CRYPTO WATCH</h1>
+        <h1 className="text-5xl mb-2">SlikHub</h1>
         <div className="inline-grid grid-cols-2 gap-x-10 p-4">
           <Link href="/">
             <button className="bg-blue-200 p-3 m-2 rounded-3xl hover:shadow-md border-2 border-blue-300">
-              Accueil
+              Home
             </button>
           </Link>
           <Link href="/about">
             <button className="bg-blue-200 p-3 m-2 rounded-3xl hover:shadow-md border-2 border-blue-300">
-              À propos
+              About
             </button>
           </Link>
         </div>
         <div>
           <Image
-            src="/main.jpg"
+            src="/image1.jpg"
             alt="footer-pic"
             width="400"
             height="25"
@@ -43,7 +44,7 @@ export default function Layout({ children, page }) {
 
       <footer className="p-10">
         <Image
-          src="/main.jpg"
+          src="/image1.jpg"
           alt="footer-pic"
           width="1000"
           height="30"
